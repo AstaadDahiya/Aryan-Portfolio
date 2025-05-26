@@ -21,12 +21,14 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 py-20 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gradient-to-br from-accent-blue to-accent-purple p-1 animate-glow">
-            <div className="w-full h-full rounded-full bg-dark-card flex items-center justify-center">
-              <div className="w-40 h-40 rounded-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
-                <span className="text-4xl font-bold text-white">A</span>
-              </div>
+            <div className="w-full h-full rounded-full bg-dark-card flex items-center justify-center overflow-hidden">
+              <img 
+                src="https://i.postimg.cc/2663Ht57/imageedit-1-7517643183.png" 
+                alt="Aryan Dahiya" 
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
           </div>
 
