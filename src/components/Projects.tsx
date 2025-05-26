@@ -9,21 +9,24 @@ const Projects = () => {
       description: "A console-based game featuring an unbeatable AI opponent using the Minimax algorithm. Demonstrates advanced C++ programming and game theory implementation.",
       tech: ["C++", "Minimax Algorithm", "Game Logic"],
       category: "Game Development",
-      gradient: "from-accent-blue to-accent-purple"
+      gradient: "from-accent-blue to-accent-purple",
+      githubUrl: "https://github.com/AstaadDahiya/TicTacToe-Cpp"
     },
     {
       title: "Digital Clock Application",
       description: "Real-time clock application with both console-based and web-based versions. Features live updates and customizable display options.",
       tech: ["C++", "JavaScript", "HTML/CSS"],
       category: "Utility Apps",
-      gradient: "from-accent-purple to-accent-teal"
+      gradient: "from-accent-purple to-accent-teal",
+      githubUrl: "https://github.com/AstaadDahiya/Digital-Clock"
     },
     {
       title: "Portfolio Website",
       description: "Responsive personal portfolio website showcasing skills, projects, and experience. Built with modern web technologies and responsive design principles.",
       tech: ["HTML", "CSS", "JavaScript", "React"],
       category: "Web Development",
-      gradient: "from-accent-teal to-accent-blue"
+      gradient: "from-accent-teal to-accent-blue",
+      githubUrl: "https://github.com/AstaadDahiya/Aryan-Portfolio"
     }
   ];
 
@@ -82,6 +85,7 @@ const Projects = () => {
                   <Button 
                     size="sm"
                     className="bg-gradient-to-r from-accent-blue to-accent-purple hover:from-accent-purple hover:to-accent-blue transition-all duration-300 flex-1"
+                    onClick={() => window.open(project.githubUrl, '_blank')}
                   >
                     Learn More
                   </Button>
@@ -89,6 +93,7 @@ const Projects = () => {
                     variant="outline" 
                     size="sm"
                     className="border-accent-blue text-accent-blue hover:bg-accent-blue hover:text-dark-bg transition-all duration-300"
+                    onClick={() => window.open(project.githubUrl, '_blank')}
                   >
                     GitHub
                   </Button>
