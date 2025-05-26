@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+👨‍💻 Aryan | Portfolio Website
+🎓 ECE Student at MAIT
+🔧 Web Developer | UI/UX Designer | Aspiring Software Engineer
 
-## Project info
+A personal portfolio website built with HTML , CSS , and JavaScript — designed to showcase my journey in tech, hands-on projects, and passion for software development and design.
 
-**URL**: https://lovable.dev/projects/05362c6a-c99f-48e5-868a-5abc36f05f7b
+🔗 https://aryandahiyawork.lovable.app/
+📂 This repo contains all the source code for the website and featured projects.
 
-## How can I edit this code?
+About Me
+I'm a 2nd-year ECE student with a strong interest in the software industry . I’m actively building skills in:
 
-There are several ways of editing your application.
+✅ Full-stack web development
+✅ UI/UX design
+✅ C/C++ programming
+✅ Digital marketing strategies
+🎯 My goal is to grow into a confident software engineer by continuously learning, building, and contributing to meaningful tech projects.
 
-**Use Lovable**
+🛠 Skills
+💻 Programming: C, C++, JavaScript  
+🌐 Web Dev: HTML, CSS, React.js  
+🎨 UI/UX: Figma, Adobe XD  
+📈 Digital Marketing: SEO, Content Creation  
+🛠 Tools: Git, GitHub, VS Code
+  
+  Featured Projects
+🎮 Tic-Tac-Toe Game (C++)
+Console-based game with basic AI logic and input validation.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/05362c6a-c99f-48e5-868a-5abc36f05f7b) and start prompting.
+Digital Clock App
+Two versions:
+Console-based in C++ using <ctime>
+Web-based in JavaScript using Date API
 
-Changes made via Lovable will be committed automatically to this repo.
+portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── projects/
+│   ├── tic-tac-toe/
+│   ├── instagram-redesign/
+│   └── digital-clock/
+│
+└── assets/
+    └── images/, icons/, fonts/
 
-**Use your preferred IDE**
+    How to Run Locally
+Clone the repository:
+git clone https://github.com/AstaadDahiya/portfolio.git 
+Navigate into the folder:
+cd portfolio
+Open index.html directly or use Live Server:
+npx live-server
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/05362c6a-c99f-48e5-868a-5abc36f05f7b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+❤️ Support This Project
+⭐ Star this repo if you found it helpful or want to support my journey!
+📬 Contributions and feedback are always welcome.
